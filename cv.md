@@ -21,7 +21,7 @@ I’m 27 years old design engineer from Ekaterinburg. My actual job is not as cr
 • Git
 • Photo editors (Photoshop, Paint.net, Pixlr)
 
-## Code Example
+## Code Example:
 ```
 <!DOCTYPE html>
 <html>
