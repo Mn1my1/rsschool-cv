@@ -26,8 +26,18 @@ I’m 27 years old design engineer from Ekaterinburg. My actual job is not as cr
 • Photo editors (Photoshop, Paint.net, Pixlr)
 
 ## Code example
-` ` `
-` ` `
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Древнее японское оружие</title>
+</head>
+<body>
+<H1>Введение</H1>
+<P>С древних времен Япония славилась своими искусными мастерами оружейниками. Катаны, метательные звезды, кунаи, саи, бо, это лишь малая часть видов оружия созданных оружейниками древней эпохи, но каждое из них носит след как владельца, так и создателя. Далее мы рассмотрим некоторые из видов оружия, что бы вы могли чуть больше погрузиться в прекрасную культуру искусства Японии</P>
+</body>
+</html>
+```
 ## Education:
 URFU (Institute of Physics and Technology)
 
