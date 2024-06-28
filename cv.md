@@ -18,7 +18,7 @@ I’m 27 years old design engineer from Ekaterinburg. My actual job is not as cr
 • Python (basic knowledge)
 • Algorithmization (including life)
 • HTML (basic knowledge and one website as a coursework from first course of institute) 
-•  Git
+• Git
 • Photo editors (Photoshop, Paint.net, Pixlr)
 
 ## Code Example
