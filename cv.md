@@ -9,7 +9,7 @@
 
 • Telegram: [Ilya Cvetkov](https://t.me/Mn1my1)
 
-• Discord: Mn1my1
+• Discord: [Mn1my1](https://discord.com/channels/@mn1my1)
 
 ## About me: 
 I’m 27 years old design engineer from Ekaterinburg. My actual job is not as creative as I want, it’s more about mechanical analysis, which is so boring sometimes. That’s why I’m here. Want to learn new creativity skills and try to work in a different way. I chose front-end development, because I thought that it is the most creative field of programming.
