@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/face.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <aside class="menu">
+        <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#Mycontact" class="nav-link">My Contacts   </a></li>
+          <li class="nav-item"><a href="#me" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+          <li class="nav-item"><a href="#edu" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#lang" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+      </aside>
+<header>
+    <div class="container"></div>
+    <div class="intro">
+        <div class="img">
+            <img src="assets/img/ava.jpg" alt="ava" />
+          </div>
+        </div>
+        <h1 id="great-text"> <p style="font-family: Merriweather;"><p style="vertical-align: Merriweather;">
+         Hello, <p style="vertical-align: Merriweather;">
+         I am Ilya </p><p style="vertical-align: Merriweather;">
+          Cvetkov. </p>
+       </h1>
+      </div>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <h3 id="Mycontact" class="title">My Contacts: </h3>
+         <p style="vertical-align: Merriweather;"></p>  
+         <p>Phone: +7-922-731-61-89</p> 
+         <p>E-mail:<a href="biologaiser@gmail.com">Ilya Cvetkov</a></p>   
+         <p>GitHub:<a href="https://github.com/Mn1my1">Mn1my1</a></p> 
+         <p>Telegram:<a href="https://t.me/Mn1my1">Ilya Cvetkov</a></p> 
+         <p>Discord:<a href="https://discord.com/channels/@mn1my1">Mn1my1</a></p>  
+        </h3>
+       <h5 id="me" class="title">About me </h5>
+       <p style="vertical-align: Merriweather;"></p>  
+       <p>I’m 27 years old design engineer from Ekaterinburg. My actual job is not as creative as I want, it’s more about mechanical analysis, which is so boring sometimes. That’s why I’m here. Want to learn new creativity skills and try to work in a different way. I chose front-end development, because I thought that it is the most creative field of programming.  </p>  
+      </h5>
+      <h6 id="skills" class="title">Skills </h6>
+      <p style="vertical-align: Merriweather;">Python (basic knowledge)</p> 
+      <p>HTML (basic knowledge)</p>   
+      <p>Git(basic knowledge)</p> 
+      <p>Photo editors (Photoshop, Paint.net, Pixlr)</p>  
+     <h7 id="code" class="title">Code Example </h7> 
+     <pre class="main-text" id="code">          <code class="language-js hljs language-javascript">
+        <span class="hljs-keyword">function</span> <span class="hljs-title function_">compose</span>(<span class="hljs-params"></span>) {
+          <span class="hljs-keyword">let</span> funcs = <span class="hljs-title class_">Array</span>.<span class="hljs-title function_">from</span>(<span class="hljs-variable language_">arguments</span>);
+          <span class="hljs-keyword">return</span> <span class="hljs-keyword">function</span> (<span class="hljs-params">x</span>) {
+            <span class="hljs-keyword">if</span> (funcs.<span class="hljs-property">length</span> 	&lt; <span class="hljs-number">1</span>) <span class="hljs-keyword">return</span> x;
+            <span class="hljs-keyword">let</span> f = funcs[funcs.<span class="hljs-property">length</span> - <span class="hljs-number">1</span>](x);
+            <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = funcs.<span class="hljs-property">length</span> - <span class="hljs-number">2</span>; i ≥ <span class="hljs-number">0</span>; i--) {
+              f = funcs[i](f);
+            }
+            <span class="hljs-keyword">return</span> f;
+          };
+        }
+      </code>
+      </pre>
+     <h8 id="edu" class="title">Education: </h8>
+     <p style="vertical-align: Merriweather;"></p>  
+     <p>URFU (Institute of Physics and Technology)</p> 
+     <p>Engineer of electronics and automation of physical installations.</p>  
+
+    <h9 id="lang" class="title">Languages </h9>
+     <p style="vertical-align: Merriweather;"></p>  
+     <p>Russian – native speaker</p> 
+     <p>English – A2</p>   
+    
+    </div>
+</main>
+<footer>
+    <div class="container">
+        
+    </div>
+</footer>
+</body>
+</html>
